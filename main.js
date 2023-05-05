@@ -1,4 +1,4 @@
-canvas = document.getElementById('myCanvas');
+canvas = document.getElementById('');
 ctx = canvas.getContext("2d");
 
 car1_width = 120;
@@ -175,7 +175,8 @@ function car2_down()
 }
 function car2_left()
 {
-	if(car2_x >= 0)
+	//car2_x >= 0
+	if()
 	{
 		car2_x =car2_x - 10;
 		console.log("When left arrow is pressed,  x = " + car2_x + " | y = " +car2_y);
@@ -186,7 +187,8 @@ function car2_left()
 }
 function car2_right()
 {
-	if(car2_x <= 700)
+	//car2_x <= 700
+	if()
 	{
 		car2_x =car2_x + 10;
 		console.log("When right arrow is pressed,  x = " + car2_x + " | y = " +car2_y);
